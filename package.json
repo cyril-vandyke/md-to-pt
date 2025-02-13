@@ -1,0 +1,21 @@
+{
+  "name": "md-to-pt",
+  "version": "1.0.0",
+  "description": "converts markdown to portabletext",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "cyril-vandyke",
+  "license": "ISC",
+  "dependencies": {
+    "@portabletext/block-tools": "^1.1.7",
+    "@sanity/schema": "^3.75.0",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "marked": "^15.0.7",
+    "prettier": "^3.5.1",
+    "supertest": "^7.0.0"
+  }
+}
